@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+/**{
+	border:#CCC 1px solid;
+}*/
+body{
+	height:1000px;
+}
+#content{
+	width:800px;
+	margin:auto;
+}
+#div_choose{
+	z-index:9;
+	color:#FFF;
+	display:none;
+	position:absolute;
+	width:750px;
+	height:170px;
+	background:#000;
+}
+#div_choose p{
+	font:"微软雅黑";
+	font-size:24px;
+	font-weight:bold;
+}
+#div_choose a{
+	color:#CCC;
+	font-size:18px;
+	font-weight:bold;
+	display:block;
+}
+#div_choose a:hover{
+	background:#FFF;
+	color:#000;
+}
+#title{
+	color:#FFF;
+	font:"微软雅黑"; 
+	/*background:#66C;*/
+	background:#006;
+	width:250px;
+	height:100px;
+	margin-left:80px;
+}
+#title h2,h5{
+	margin-left:10px;
+	margin-right:10px;
+}
+#logo{
+	/*background:#36F;*/
+	background:#330;
+	width:120px;
+	height:70px;
+	margin-left:330px;
+}
+#db{
+	/*background:#66C;*/
+	
+	background:#606;
+	width:330px;
+	height:130px;
+}
+#db div{
+	font:"微软雅黑";
+	color:#FFF;
+}
+#db a{
+	font-size:20px;
+	font:"微软雅黑";
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	margin-left:10px;
+}
+#db a:hover{
+	text-decoration:underline;
+}
+#in_now{
+	/*background:#36F;*/
+	background:#603;
+	width:90px;
+	height:100px;
+	margin-left:330px;
+}
+#in_now a{
+	font-size:20px;
+	font:"微软雅黑";
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+}
+#in_now a:hover{
+	text-decoration:underline;
+}
+#main_1{
+	position:relative;
+}
+#main_3{
+	position:relative;
+}
+#push_left{
+	/*background:#66C;*/
+	background:#303;
+	float:left;
+	width:330px;
+	height:170px;
+	font-size:14px;
+}
+#push_right{
+	background:#003;
+	margin-left:90px;
+	float:left;
+	width:330px;
+	height:170px;
+}
+#main_6{
+	clear:both;
+}
+#push_movie_font{
+	position:absolute;
+	width:200px;
+	height:100px;
+	left:450px;
+	top:0;
+	padding:50px;
+	padding-top:0px;
+	font:"微软雅黑"; 
+	font-size:60px;
+}
+#index_brief{
+	position:absolute;
+	width:200px;
+	height:40px;
+	top:-40px;
+	left:450px;
+	padding:50px;
+	padding-top:0px;
+	padding-bottom:0px;
+	font:"微软雅黑"; 
+	font-size:16px;
+	color:#999;
+	font-weight:bolder;
+}
+#push_result{
+	width:750px;
+	position:absolute;
+	height:700px;
+	background:#000;   
+	display:none;
+	z-index:13;
+	color:#FFF;
+	text-align:center;
+}
+#result_content{
+	position:absolute;
+	width:750px;
+	
+	
+}
+#result_content content_title{
+	background:#000;
+}

@@ -1,0 +1,305 @@
+* {
+    margin:0px;
+	padding:0px;
+	border:0px;	
+}
+
+body {
+    font-family:宋体,Arial, Helvetica, sans-serif;
+	background:url(../images/user_bg.gif);
+	font-size:14px;	
+}
+
+a {
+    text-decoration:none;	
+}
+
+a:hover {
+    color:#0C3;	
+}
+
+ul {
+    list-style:none;	
+}
+
+#wrap {
+    width:980px;
+	margin:0 auto;	
+}
+
+
+/* ---------------------- 头部导航条开始 ---------------------- */
+#header {
+	margin-top:10px;
+    width:980px;
+	height:170px;
+}
+
+#header .logo_bg {
+	width:980px;
+	height:101px;
+	padding-top:20px;
+    background:url(../images/header_bg.jpg);	
+}
+
+#header .logo_bg h1 {
+    color:#03F;
+	margin-top:40px;
+	margin-left:50px;	
+}
+
+#header .logo_bg .logo {
+    float:right;
+	margin-top:-70px;
+	margin-right:5px;	
+}
+
+#header .blue #slatenav{
+	position:relative;
+    display:block;
+	height:42px;
+	font-weight:bold;
+	background:transparent url(../images/blueslate_background.gif) repeat-x top left;
+	font-family:Arial,Verdana,Helvitica,sans-serif;
+	text-transform:uppercase;
+}
+
+#header .blue #slatenav ul{
+	margin:0px;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+}
+
+#header .blue #slatenav ul li{
+	display:block;
+	float:left;
+	margin:0 1px 0 0;
+}
+
+#header .blue #slatenav ul li a{
+	display:block;
+	float:left;
+	color:#D5F1FF;
+	text-decoration:none;
+	padding:14px 22px 0 22px;
+	height:28px;
+}
+
+#header .blue #slatenav ul li a:hover,.blue #slatenav ul li a.current{
+	color:#fff;
+	background:transparent url(../images/blueslate_backgroundOVER.gif) no-repeat top center;
+}
+/* ---------------------- 头部导航条结束 ---------------------- */
+#content {
+    width:980px;
+	height:600px;	
+}
+/* ---------------------- 左部侧边栏开始 ---------------------- */
+#left {
+    width:235px;
+	height:595px;
+	float:left;
+	background-color:#FFF;	
+}
+
+/*---------日历开始---------*/
+
+#calendar table {
+	background:url(../images/calendar_bg.jpg) left top;
+	width:210px;
+	height:138px;
+	margin-left:12px;
+	border:1px solid #eee;
+}
+
+.top {
+    padding-left:10px;	
+}
+
+td {
+    width:30px;
+	height:30px;
+	text-align:center;	
+}
+
+.year,.month {
+    width:51px;	
+}
+
+.c{
+    width:15px;	
+}
+
+.f{
+    background-color:#6FF;	
+}
+
+/*---------日历结束---------*/
+/*---------最新留言开始---------*/
+#new_words {
+    width:205px;
+	height:230px;
+	margin-top:45px;
+	margin-left:14px;
+	border:2px solid #0F3;
+	background:url(../images/new_words_bg.jpg);	
+}
+
+#new_words ul li {
+    padding:5px 20px;	
+}
+
+#new_words ul li a,.words_title h6 a {
+    color:#0F3;	
+}
+
+#new_words ul li a:hover,.words_title h6 a:hover {
+    color:#03C;
+	position:relative;
+	top:1px;
+	left:1px;	
+}
+
+.words_title {
+    width:200px;
+	height:20px;
+	border-bottom:1px solid #0F3;
+	color:#00F	
+}
+
+.words_title h5 {
+    margin-top:2px;	
+	color:#0F3;
+}
+
+.words_title h6 {
+    float:right;
+	margin-top:-14px;	
+}
+
+/*---------最新留言结束---------*/
+/* ---------------------- 左部侧边栏结束 ---------------------- */
+/* ---------------------- 右边内容页开始 ---------------------- */
+#right {
+    width:740px;
+	height:595px;
+	float:left;
+	margin-left:5px;
+	background-color:#FFF;	
+}
+
+#right .article {
+	width:740px;
+	height:550px;
+}
+
+#right .article h2 {
+    color:#09C;	
+	padding-top:5px;
+}
+
+#right .article_con {
+    width:720px;
+	height:225px;
+	margin-left:10px;
+	padding-top:10px;
+	border-bottom:1px dotted #3FF;	
+}
+
+#right .article_con_c {
+	line-height:20px;
+    height:210px;	
+}
+
+#right .article .article_con_show {
+    float:right;
+}
+
+#right .page {
+    width:740px;
+	height:30px;
+	text-align:center;	
+	padding-top:10px;
+}
+
+/* ---------------------- 右边内容页结束 ---------------------- */
+/* ---------------------- 留言列表开始 ---------------------- */
+#right .message {
+    width:720px;
+	height:550px;
+	margin-left:10px;	
+}
+
+#right .message h1 {
+    text-align:center;
+	color:#00F;	
+}
+
+#right .message ul li {
+    padding:13px 20px;	
+}
+
+#right .message ul li a {
+    font-size:18px;
+	font-weight:600;	
+}
+
+#right .message ul li span {
+    font-size:12px;	
+}
+/* ---------------------- 留言列表结束 ---------------------- */
+/* ---------------------- 留言展示页面开始 ---------------------- */
+#right .show {
+    width:700px;
+	height:550px;
+	margin:0 auto;	
+}
+
+#right .show h2 {
+    text-align:center;
+	margin-top:10px;
+	margin-bottom:30px;
+	color:#00F;	
+}
+
+#right .show_article {
+    font-size:16px;
+	text-indent:37px;
+	line-height:30px;
+}
+
+#right .show_article_con {
+    height:490px;	
+}
+
+#right .show .show_article_show{
+	float:right;
+	font-size:18px;	
+}
+/* ---------------------- 留言展示页面结束 ---------------------- */
+/* ---------------------- 个人资料页面开始 ---------------------- */
+#right .idcard h3 {
+    margin-top:20px;
+	text-align:center;
+	color:#6C0;	
+}
+
+#right .idcard .idcard_con {
+    margin-top:100px;
+	margin-left:200px;
+	font-size:18px;
+	font-weight:800;
+	color:#3CF;	
+}
+/* ---------------------- 个人资料页面结束 ---------------------- */
+/* ---------------------- 底部版权栏开始 ---------------------- */
+#footer {
+    width:980px;
+	height:30px;
+	clear:both;
+	padding-top:25px;
+	text-align:center;
+	background-color:#0FF;	
+}
+/* ---------------------- 底部版权栏结束 ---------------------- */

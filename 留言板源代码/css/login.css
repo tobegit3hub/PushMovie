@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin:0px;
+	padding:0px;	
+}
+
+body {
+	font-family:宋体;
+	background:url(../images/login_bg.jpg);	
+}
+
+a {
+    text-decoration:none;	
+}
+
+td {
+    padding-bottom:40px;	
+} 
+
+#login {
+    margin-top:80px;
+	margin-left:380px;	
+}
+
+#lo_title {
+   	margin-top:70px;
+	margin-left:430px;
+}
+
+#username,#pass {
+    width:200px;
+	height:23px;	
+}
+.submit,.register,.fopass {
+    margin-left:23px;	
+}
+
+.submit {
+    width:100px;	
+}
+
+

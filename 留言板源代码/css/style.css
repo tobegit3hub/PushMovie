@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document for index.php */
+
+* {
+    margin:0px;
+	padding:0px;	
+}
+
+body {
+	background:url(../images/bg_1.jpg) no-repeat;
+    font-family:宋体,Arial, Helvetica, sans-serif;
+	color:#000;	
+	font-size:16px;
+}
+
+a {
+    text-decoration:none;	
+}
+
+a:hover {
+    color:#00F;	
+}
+
+input,textarea {
+	background:transparent;
+}
+
+#login {
+	width:100%;
+	height:20px;
+    float:right;
+}
+
+#login .lo {
+	color:#08f;
+	position:relative;
+	top:10px;
+	left:-10px;
+    float:right;	
+}
+
+#wrap {
+	width:900px;
+	height:auto;
+	padding:20px;
+    margin:0 auto;
+	position:relative;
+	top:100px;
+	left:100px;
+}
+
+
+.caption {
+    font-size:56px;
+	font-weight:600;	
+}
+
+.messages {
+    text-align:center;	
+}
+
+.notice,.messages {
+	font-weight:bold;	
+}
+
+.notice {
+    text-align:center;	
+}
+
+table {
+    width:800px;
+}
+
+#user,#qq,#content,#title {
+    margin-top:10px;
+	border:1px solid #CCC;	
+}
+
+#user,#qq,#title{
+    height:20px;	
+}
+
+#title {
+	color:#fff;
+    width:500px;	
+}
+
+.pro_login {
+    text-align:center;
+	margin-top:400px;	
+}
+
+textarea {
+	color:#fff;
+	width:600px;
+	height:300px;
+}
+
+.submit,#reset,.see {
+	border:0;
+	color:#fff;
+    width:100px;
+	height:29px;
+	cursor:pointer;
+	margin-top:10px;
+	margin-left:100px;
+	background:url(../images/button_w.gif) no-repeat;
+}
+
+.show {
+    border:1px solid #999;
+	margin-left:45px;	
+}
+
+#footer {
+	 color:green;
+     margin-left:200px;
+	 font-weight:bold;
+	 margin-top:150px;	
+}

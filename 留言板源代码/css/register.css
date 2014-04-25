@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin:0px;
+	padding:0px;	
+}
+
+body {
+    font-family:宋体;
+	background:url(../images/register_bg.jpg) left top no-repeat;	
+}
+
+label {
+	color:#ffffff;
+}
+
+input {
+    width:200px;
+	height:20px;	
+}
+
+#validatorCode {
+    width:80px;	
+}
+
+#re_title {
+    margin-left:450px;
+	margin-top:40px;	
+}
+
+#re_form {
+    margin-left:370px;
+	margin-top:50px;
+	width:800px;
+	height:300px;	
+}
+
+#submit,#reset{
+	margin-left:40px;
+    width:100px;
+	height:30px;	
+}
+
+#usernameTip,#password,#repass,#emailTip,#validatorCodeTip{
+    width:200px;	
+}
+
+td {
+	padding-bottom:40px;
+}
+
+.va_img {
+	position:relative;
+	top:2px;	
+}

@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document for show.php */
+
+* {
+   margin:0;
+   padding:0;	
+}
+
+body {
+   	background:url(../images/bg_2.jpg);
+	color:#3399FF;
+}
+
+a{
+    color:#AC8721;
+	text-decoration:none;
+}
+
+a:hover {
+    color:#03C;	
+}
+
+h1{
+	font-size:56px;
+	color:#39F;
+	font-weight:600;
+	text-align:center;
+}
+
+h6{
+	width:898px;
+	text-align:center;
+	font-size:18px;
+	border:1.5px solid #A9B3D7;
+	padding:6px 0 0 0; 
+	float:left;
+}
+
+#logo {
+    float:right;
+	margin-top:-30px;
+	margin-right:5px;	
+}
+
+#wrap{
+	width:900px;
+	margin:40px auto;
+}
+
+#page {
+	float:left;
+	width:900px;
+	height:20px;
+    padding-top:30px;
+    text-align:center;
+
+}
+
+#footer {
+	width:300px;
+	height:20px;
+	position:absolute;
+	top:780px;
+	left:650px;
+}
+
+.want_m {
+    float:right;
+	font-size:15px;
+	font-weight:100;
+	margin-right:10px;	
+}
+
+.message{
+	width:894px;
+	padding:2px;
+	border:1px solid #D4D0C8; 
+	float:left;
+}
+
+.user_con{
+	width:100px;
+	height:210px;
+	border:1px solid #A9B3D7;
+	margin:2px 0 0 0; 
+	float:left;
+	font-size:15.5px; 
+	overflow:hidden; 
+	text-align:center;
+	padding:10px 0;
+}
+
+.user_con table{
+	width:100px;
+}
+
+.message_con{
+	width:788px;
+	margin:2px 0 0 2px;
+	border:1px solid #A9B3D7;
+	float:left; 
+	overflow:hidden;
+}
+
+.title{
+	color:red;
+	width:788px;
+	height:24px;
+	line-height:24px; 
+	text-align:center;
+	border-bottom:1px solid #A9B3D7;
+}
+
+.content{
+	width:758px;
+	height:181px;
+	color:#0808F2;
+	font-size:14px;
+	font-weight:600;
+	text-indent:40px;
+    line-height:20px;
+	vertical-align:top;
+	padding:10px 10px 0 10px;
+	border-bottom:1px solid #A9B3D7;
+}
+
+/*-----------------底部功能栏开始--------------------*/
+.date,.del,.good_comment,.bad_comment {
+    font-size:14px;
+		color:#06DEFA;
+}
+
+.time{
+	width:788px;
+	height:24px;
+}
+
+.date{
+	float:left;
+	margin-left:10px;
+	margin-top:2px;
+}
+
+.del{
+	float:right;
+	margin-right:10px;
+}
+
+/*-----送鲜花，扔鸡蛋开始-------*/
+.good_comment {
+	float:left;
+    margin-left:60px;
+}
+
+.bad_comment {
+	float:left;
+    margin-left:20px;
+}
+/*-----送鲜花，扔鸡蛋结束-------*/
+
+/*-----------------底部功能栏结束--------------------*/

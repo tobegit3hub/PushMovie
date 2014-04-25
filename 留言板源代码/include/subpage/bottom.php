@@ -1,0 +1,1 @@
+<div class="copy">Copyright&nbsp;(C)&nbsp;2011-12-5&nbsp;&nbsp;<a href="http://www.web527.com/">web527</a></div>
